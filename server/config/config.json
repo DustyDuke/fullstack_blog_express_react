@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "elena",
+    "password": "0306Bb77",
+    "database": "pet_projectdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "pet_projectdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "pet_projectdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

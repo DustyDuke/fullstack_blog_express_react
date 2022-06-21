@@ -1,0 +1,39 @@
+{
+  "name": "express-server",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.13",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "inversify": "^6.0.1",
+    "inversify-express-utils": "^6.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "reflect-metadata": "^0.1.13",
+    "sequelize-typescript": "^2.1.3",
+    "swagger-express-ts": "^1.1.0",
+    "swagger-ui-express": "^4.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.41",
+    "@types/uuid": "^8.3.4",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.4.0",
+    "express-jwt": "^6.1.1",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.20.1",
+    "sequelize-cli": "^6.4.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
